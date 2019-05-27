@@ -37,7 +37,7 @@ process:
     plugin: default_value
     default_value: page
   uid:
-    plugin: migration
+    plugin: migration_lookup
     migration: users
     source: author
   status:
